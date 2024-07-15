@@ -33,22 +33,30 @@ const Header = () => {
           </div>
         </form> */}
 
-         <div className="flex justify-center">
-          <Link to="/" className="mr-4 ">Home</Link>
+        <div className="flex justify-center">
+          <Link to="/" className="mr-4 ">
+            Home
+          </Link>
           <Link to="/about">About</Link>
-        </div> 
-
-        {/* <div className="border border-black-500 p-1 rounded-md px-4  hover:text-white text-white bg-gradient-to-r from-indigo-500 via-purple-500 to bg-pink-500 ">Sigin</div>  */}
+        </div>
 
         <div className="flex gap-2">
-          <Button className="w-12 h-10 hidden sm:inline rounded-md" color="gray" pill>
+          <Button
+            className="w-12 h-10 hidden sm:inline rounded-md"
+            color="gray"
+            pill
+          >
             <FaMoon />
           </Button>
           <Link to="/sigin">
-          <Button color="gray" className="p-2 rounded-md bg-blue-500 font-semibold text-white">Sigin</Button> 
+            <Button
+              color="gray"
+              className="p-2 rounded-md bg-blue-500 font-semibold text-white"
+            >
+              Sigin
+            </Button>
           </Link>
         </div>
-       
       </Navbar>
     </>
   );
