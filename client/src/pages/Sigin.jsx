@@ -1,7 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Sigin = () => {
-  return <div>Sigin</div>;
+  return (
+    <>
+      <div>sigin</div>
+    </>
+  );
 };
 
-export default Sigin
+export default Sigin;
